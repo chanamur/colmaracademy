@@ -11,25 +11,25 @@ header {
   height: 64px;
   padding-left: 24px;
   padding-right: 24px;
-  border: 1px solid blue;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: 'Neuton', sans-serif;
+  font-size: 25px;
+  border-bottom: 2px solid black;
 }
 
 .name {
   height: 32px;
-  border: 1px solid black;
   display: flex;
   align-items: center;
 }
 
 .name span {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 nav li {
-  border: 1px solid red;
   height: 32px;
   display: inline-flex;
   align-items: center;
@@ -39,6 +39,15 @@ nav .space {
   margin-right: 16px;
 }
 
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+ nav a:hover {
+   color: #3333ff;
+   transition: color 0.1s linear;
+ }
 
 
 
