@@ -11,9 +11,6 @@ html {
   font-size: 16px;
 }
 
-
-
-
 /* header */
 
 header {
@@ -62,24 +59,31 @@ nav a {
 
 .learn {
   width: 100%;
-  margin: 0 auto;
   display: flex;
   align-items: center;
+  border: 2px solid red;
+}
+
+.learn .left {
+  width: 60%;
+  margin: 32px 24px;
+  border: 2px solid blue;
 }
 
 .learn img {
-  width: 60%;
-  margin: 32px 24px;
+  max-width: 100%;
+  height: auto;
 }
 
 .learn .text {
-  width: 25%;
+  width: 40%;
 }
 
 .learn h1 {
   font-family: "Alegreya Sans", sans-serif;
   font-weight: 800;
   font-size: 2.7rem;
+  width: 70%;
 }
 
 .learn p {
@@ -87,16 +91,18 @@ nav a {
   font-weight: 500;
   font-size: 1.7rem;
   margin-top: 1rem;
+  width: 70%;
 }
 
 .learn #button {
-  padding: 8px 15px;
+  padding: 0.5rem 1rem;
   background-color: black;
   color: white;
   text-align: center;
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: 400;
   font-size: 1.3rem;
+  width: 60%;
 }
 
 .learn #button a {
@@ -104,5 +110,46 @@ nav a {
   color: white;
 }
 
+/* practice section */
+
+.practice {
+  width: 100%;
+  display: flex;
+  border: 1px solid black;
+}
+
+.practice .left {
+  width: 60%;
+  margin: 32px 24px;
+  border: 1px solid red;
+}
+
+.practice .right {
+  width: 40%;
+  border: 1px solid blue;
+  margin-bottom: 32px;
+}
+
+.practice img {
+  max-width: 100%;
+}
+
+.practice h1 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 800;
+  font-size: 2.7rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.practice p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4rem;
+}
+
+#emanuel {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+}
 
 /* footer */
