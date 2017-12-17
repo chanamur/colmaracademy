@@ -1,26 +1,35 @@
+/* revoir font styles */
+
+/*revoir couleur nav links hover */
+
+/* choisir couleur banner button + hover + hover link */
+
+
 /* universal styles */
 
+html {
+  font-size: 16px;
+}
 
 
 
 
-
-/* footer */
+/* header */
 
 header {
-  height: 64px;
-  padding-left: 24px;
-  padding-right: 24px;
+  height: 4rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: 'Neuton', sans-serif;
-  font-size: 25px;
+  font-size: 1.5rem;
   border-bottom: 2px solid black;
 }
 
 .name {
-  height: 32px;
+  height: 2rem;
   display: flex;
   align-items: center;
 }
@@ -30,13 +39,13 @@ header {
 }
 
 nav li {
-  height: 32px;
+  height: 2rem;
   display: inline-flex;
   align-items: center;
 }
 
 nav .space {
-  margin-right: 16px;
+  margin-right: 1rem;
 }
 
 nav a {
@@ -49,10 +58,51 @@ nav a {
    transition: color 0.1s linear;
  }
 
+/* section learn */
+
+.learn {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.learn img {
+  width: 60%;
+  margin: 32px 24px;
+}
+
+.learn .text {
+  width: 25%;
+}
+
+.learn h1 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 800;
+  font-size: 2.7rem;
+}
+
+.learn p {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+}
+
+.learn #button {
+  padding: 8px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.learn #button a {
+  text-decoration: none;
+  color: white;
+}
 
 
-
-
-
-
-/* header */
+/* footer */
