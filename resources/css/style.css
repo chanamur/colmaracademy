@@ -110,7 +110,7 @@ nav a {
   color: white;
 }
 
-/* practice section */
+/* practice section - left column */
 
 .practice {
   width: 100%;
@@ -150,6 +150,44 @@ nav a {
 #emanuel {
   margin-top: 2rem;
   font-size: 1.1rem;
+}
+
+/* practice section - right column */
+
+.orientation,
+.campus,
+.guest {
+  width: 100%;
+  display: flex;
+  border: 2px solid black;
+}
+
+.orientation img,
+.campus img,
+.guest img {
+  max-width: 100%;
+  height: auto;
+}
+
+.orientation-pic,
+.campus-pic,
+.guest-pic {
+  margin: 1rem 1rem;
+  width: 35%;
+  border: 2px solid firebrick;
+}
+
+#path {
+  margin-top: 2rem;
+}
+
+.orientation-text,
+.campus-text,
+.guest-text {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* footer */
