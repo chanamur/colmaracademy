@@ -61,13 +61,11 @@ nav a {
   width: 100%;
   display: flex;
   align-items: center;
-  border: 2px solid red;
 }
 
 .learn .left {
   width: 60%;
   margin: 32px 24px;
-  border: 2px solid blue;
 }
 
 .learn img {
@@ -115,18 +113,15 @@ nav a {
 .practice {
   width: 100%;
   display: flex;
-  border: 1px solid black;
 }
 
 .practice .left {
   width: 60%;
   margin: 32px 24px;
-  border: 1px solid red;
 }
 
 .practice .right {
   width: 40%;
-  border: 1px solid blue;
   margin-bottom: 32px;
 }
 
@@ -159,7 +154,6 @@ nav a {
 .guest {
   width: 100%;
   display: flex;
-  border: 2px solid black;
 }
 
 .orientation img,
@@ -174,7 +168,6 @@ nav a {
 .guest-pic {
   margin: 1rem 1rem;
   width: 35%;
-  border: 2px solid firebrick;
 }
 
 #path {
@@ -188,6 +181,21 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.practice .right h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.practice .right .text-margin {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.practice .right a {
+  text-decoration: none;
 }
 
 /* footer */
