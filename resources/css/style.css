@@ -4,11 +4,18 @@
 
 /* choisir couleur banner button + hover + hover link */
 
+/* vérifier espace entre premiere image et texte sur la droite */
+
 
 /* universal styles */
 
 html {
   font-size: 16px;
+}
+
+body {
+  width: 70%;
+  margin: 0 auto;
 }
 
 /* header */
@@ -197,5 +204,78 @@ nav a {
 .practice .right a {
   text-decoration: none;
 }
+
+/* start learning section  */
+
+.start {
+  width: 100%;
+}
+
+.start h1 {
+  text-align: center;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 800;
+  font-size: 2.7rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.start h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.start p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1rem;
+}
+
+.start .courses {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.start .courses-list-1,
+.start .courses-list-2 {
+  margin-left: 4.5rem;
+  margin-right: 4.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.start img {
+  max-width: 100%;
+  height: auto;
+}
+
+.software-container,
+.compart-container,
+.design-container,
+.data-container,
+.business-container,
+.marketing-container {
+  width: 33.3%;
+  background-color: #ffff99;
+}
+
+.compart-container,
+.business-container {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.software-text,
+.computer-text,
+.design-text,
+.data-text,
+.business-text,
+.marketing-text {
+  padding: 1rem 1rem 1.5rem 1rem;
+}
+
+
+
 
 /* footer */
