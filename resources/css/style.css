@@ -280,6 +280,10 @@ nav a {
 
 /* thesis exhibits */
 
+.thesis {
+  width: 100%;
+}
+
 .thesis h1 {
   text-align: center;
   font-family: "Alegreya Sans", sans-serif;
@@ -289,7 +293,20 @@ nav a {
   margin-bottom: 2rem;
 }
 
+.thesis .left {
+  width: 60%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
+}
 
+.thesis .left video {
+  max-width: 100%;
+}
+
+.thesis .right {
+  width: 40%;
+}
 
 
 /* footer */
