@@ -23,7 +23,7 @@ body {
 
 /* header */
 
-header {
+/* header {
   height: 4rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -34,7 +34,28 @@ header {
   font-size: 1.5rem;
   border-bottom: 2px solid rgb(102, 0, 0);
   background-color: rgb(54, 98, 135);
-  /*color: rgb(255, 255, 179);*/
+  /* color: rgb(255, 255, 179);
+  color: rgb(255, 255, 255);
+} */
+
+
+header {
+  position: fixed;
+  z-index: 1;
+  width: 80%;
+}
+
+.header-container {
+  height: 4rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Neuton', serif;
+  font-size: 1.5rem;
+  border-bottom: 2px solid rgb(102, 0, 0);
+  background-color: rgb(54, 98, 135);
   color: rgb(255, 255, 255);
 }
 
@@ -71,6 +92,8 @@ nav a {
 /* section learn */
 
 .learn {
+  position: relative;
+  top: 4rem;
   width: 100%;
   display: flex;
   align-items: center;
@@ -130,6 +153,8 @@ nav a {
 /* practice section - left column */
 
 .practice {
+  position: relative;
+  top: 4rem;
   width: 100%;
   display: flex;
   /*background-color: rgb(255, 241, 156);*/
@@ -248,6 +273,8 @@ nav a {
 /* start learning section  */
 
 .start {
+  position: relative;
+  top: 4rem;
   width: 100%;
   /*background-color: rgb(255, 255, 179);*/
   padding-bottom: 1rem;
@@ -330,6 +357,8 @@ nav a {
 /* thesis exhibits */
 
 .thesis {
+  position: relative;
+  top: 4rem;
   width: 100%;
   /*background-color: rgb(255, 241, 156);*/
 }
@@ -430,6 +459,8 @@ nav a {
 /* footer */
 
 footer {
+  position: relative;
+  top: 4rem;
   display: flex;
   justify-content: space-between;
   padding-top: 1rem;
