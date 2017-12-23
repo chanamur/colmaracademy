@@ -39,9 +39,13 @@ header {
   align-items: center;
   font-family: 'Neuton', serif;
   font-size: 1.5rem;
-  border-bottom: 2px solid rgb(102, 0, 0);
+  border-bottom: 3px solid rgb(102, 0, 0);
   background-color: rgb(54, 98, 135);
   color: rgb(255, 255, 255);
+}
+
+.mobile-header {
+  display: none;
 }
 
 .name {
@@ -76,6 +80,10 @@ nav a {
 
 /* section learn */
 
+.learn-mobile {
+  display: none;
+}
+
 .learn {
   position: relative;
   top: 4rem;
@@ -86,7 +94,7 @@ nav a {
 
 .learn .left {
   width: 60%;
-  margin: 32px 24px;
+  margin: 2rem 1.5rem;
 }
 
 .learn img {
@@ -167,6 +175,16 @@ nav a {
 
 /* practice section - right column */
 
+.practice-mobile {
+  display: none;
+}
+
+.orientation-mobile,
+.campus-mobile,
+.guest-mobile {
+  display: none;
+}
+
 .practice .right {
   width: 40%;
   margin-bottom: 32px;
@@ -175,23 +193,21 @@ nav a {
 .orientation,
 .campus,
 .guest {
-  width: 100%;
+  width: 99%;
   display: flex;
-  border-left: 2px solid rgb(54, 98, 135);
-  border-bottom: 2px solid rgb(54, 98, 135);
-  border-right: 2px solid rgb(54, 98, 135);
+  border-left: 1px solid rgb(54, 98, 135);
+  border-bottom: 1px solid rgb(54, 98, 135);
+  border-right: 1px solid rgb(54, 98, 135);
   background-color: rgba(54, 98, 135, 0.1);
 }
 
 .orientation {
-  border-top: 2px solid rgb(54, 98, 135);
+  border-top: 1px solid rgb(54, 98, 135);
 }
 
-/*#way,
-#map,
-#sack {
-  background-color: rgba(54, 98, 135, 0.1);
-}*/
+.mobile-pic {
+  display: none;
+}
 
 .orientation img,
 .campus img,
@@ -247,6 +263,10 @@ nav a {
 }
 
 /* start learning section  */
+
+.start-mobile {
+  display: none;
+}
 
 .start {
   position: relative;
@@ -327,6 +347,10 @@ nav a {
 
 /* thesis exhibits */
 
+.thesis-mobile {
+  display: none;
+}
+
 .thesis {
   position: relative;
   top: 4rem;
@@ -384,23 +408,18 @@ nav a {
 
 .thesis-container .right .fisma,
 .thesis-container .right .now {
-  width: 100%;
+  width: 99%;
   display: flex;
   align-items: center;
   background-color: rgba(54, 98, 135, 0.1);
-  border-left: 2px solid rgb(54, 98, 135);
-  border-bottom: 2px solid rgb(54, 98, 135);
-  border-right: 2px solid rgb(54, 98, 135);
+  border-left: 1px solid rgb(54, 98, 135);
+  border-bottom: 1px solid rgb(54, 98, 135);
+  border-right: 1px solid rgb(54, 98, 135);
 }
 
 .thesis-container .right .fisma {
-  border-top: 2px solid rgb(54, 98, 135);
+  border-top: 1px solid rgb(54, 98, 135);
 }
-
-/*#draw,
-#skyline {
-  background-color: rgba(54, 98, 135, 0.1);
-}*/
 
 .fisma-pic,
 .now-pic {
@@ -429,7 +448,7 @@ footer {
   justify-content: space-between;
   padding-top: 1rem;
   padding-bottom: 3rem;
-  border-top: 2px solid rgb(102, 0, 0);
+  border-top: 3px solid rgb(102, 0, 0);
   background-color: rgb(54, 98, 135);
   color: rgb(255, 255, 255);
   font-size: 1.1rem;
@@ -454,4 +473,251 @@ footer a {
 
 #privacy {
   margin-left: 1rem;
+}
+
+
+
+/* media queries - mobile */
+
+@media only screen and (max-width: 480px) {
+  body {
+    width: 100%;
+  }
+
+  /* header */
+
+  header {
+    position: static;
+    width: 100%;
+  }
+
+  .header-container {
+    display: none;
+  }
+
+  .mobile-header {
+    height: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid rgb(102, 0, 0);
+    background-color: rgb(54, 98, 135);
+    color: rgb(255, 255, 255);
+  }
+
+  /* learn section */
+
+  .learn {
+    display: none;
+  }
+
+  .learn-mobile {
+    display: block;
+    padding-bottom: 2rem;
+  }
+
+  .learn-mobile .left {
+    width: 100%;
+  }
+
+  .learn-mobile img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .learn-mobile .text {
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+
+  .learn-mobile h1 {
+    font-weight: 800;
+    font-size: 2.7rem;
+  }
+
+  .learn-mobile #text-margin {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .learn-mobile a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  .learn-mobile #button {
+    padding: 0.5rem 1rem;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.3rem;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .learn-mobile p {
+    font-weight: 500;
+    font-size: 1.7rem;
+  }
+
+  .learn-mobile #button:hover {
+    background-color: rgb(51, 51, 51);
+    border-radius: 10px;
+    transition: all 0.2s ease-in 0.5ms;
+  }
+
+
+  /* practice section */
+
+  .practice {
+    display: none;
+  }
+
+  .practice-mobile {
+    width: 100%;
+    display: block;
+    padding-bottom: 2rem;
+  }
+
+  .orientation-mobile,
+  .campus-mobile,
+  .guest-mobile {
+    display: block;
+  }
+
+  .practice-mobile img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .practice-mobile h2 {
+    font-weight: 800;
+    font-size: 2.7rem;
+    margin-top: 1.5rem;
+  }
+
+  .practice-mobile a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  .practice-mobile a:hover {
+    font-weight: bold;
+  }
+
+  .practice-mobile p {
+    font-size: 1.2rem;
+  }
+
+  .practice-mobile .text-margin {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .orientation-mobile,
+  .campus-mobile {
+    margin-bottom: 4rem;
+  }
+
+  .orientation-pic-mobile,
+  .campus-pic-mobile,
+  .guest-pic-mobile {
+    margin: 0 1rem;
+  }
+
+  #path {
+    margin-top: 1rem;
+  }
+
+  .orientation-text-mobile,
+  .campus-text-mobile,
+  .guest-text-mobile {
+    margin-left: 2rem;
+  }
+
+  /* start learning */
+
+  .start {
+    display: none;
+  }
+
+  .start-mobile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .start-mobile div {
+    width: 100%;
+    background-color: rgba(54, 98, 135, 0.1);
+    padding: 1rem 0 1.5rem 0;
+    margin-bottom: 0.5rem;
+    display: flex;
+  }
+
+  .start-mobile h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.7rem;
+    margin-bottom: 1rem;
+  }
+
+  .start-mobile h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 1rem;
+  }
+
+  .start-mobile a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  .start-mobile a:hover {
+    font-weight: 800;
+  }
+
+  /* thesis section */
+
+  .thesis {
+    display: none;
+  }
+
+  .thesis-mobile {
+    display: block;
+    width: 100%;
+    padding-top: 2rem;
+  }
+
+  .thesis-mobile h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.7rem;
+    margin-bottom: 1rem;
+  }
+
+  .thesis-mobile video {
+    max-width: 100%;
+  }
+
+  .thesis-mobile .video-container {
+    padding-bottom: 1.5rem;
+  }
+
+  /* footer */
+
+  footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: static;
+    font-size: 0.9rem;
+  }
+
+  .terms {
+    display: none;
+  }
 }
