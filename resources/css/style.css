@@ -477,18 +477,31 @@ footer a {
 
 
 
-/* media queries - mobile */
 
-@media only screen and (max-width: 480px) {
+
+/* media queries - tablet */
+
+/* header
+
+@media only screen and (max-width: 768px) { */
+
+
+
+
+
+
+
+/* media queries - portrait & mobile */
+
+@media only screen and (max-width: 768px), (orientation: portrait) {
   body {
     width: 100%;
   }
 
-  /* header */
-
   header {
     position: static;
     width: 100%;
+    top: 0;
   }
 
   .header-container {
@@ -506,6 +519,16 @@ footer a {
     background-color: rgb(54, 98, 135);
     color: rgb(255, 255, 255);
   }
+
+  .learn,
+  .practice,
+  .start,
+  .thesis,
+  footer {
+    position: static;
+    top: 0;
+  }
+
 
   /* learn section */
 
