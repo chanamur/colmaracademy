@@ -476,20 +476,13 @@ footer a {
 }
 
 
+/* media queries - tablet landscape */
 
-
-
-/* media queries - tablet */
-
-/* header
-
-@media only screen and (max-width: 768px) { */
-
-
-
-
-
-
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 13px;
+  }
+}
 
 /* media queries - portrait & mobile */
 
