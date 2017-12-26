@@ -1,15 +1,7 @@
-/* revoir font styles */
-
-/*revoir couleur nav links hover */
-
-/* choisir couleur banner button + hover + hover link */
-
 /* vérifier espace entre premiere image et texte sur la droite */
 
-/* trouver une 2e police de caractère en renfort */
 
-
-/* universal styles */
+/* *****universal styles***** */
 
 html {
   font-size: 16px;
@@ -22,7 +14,7 @@ body {
   background-color: rgba(54, 98, 135, 0.2);
 }
 
-/* header */
+/* *****header***** */
 
 header {
   position: fixed;
@@ -31,11 +23,8 @@ header {
 }
 
 .header-container {
-  height: 64px;
   height: 4rem;
-  padding-left: 24px;
   padding-left: 1.5rem;
-  padding-right: 24px;
   padding-right: 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47,7 +36,6 @@ header {
       -ms-flex-align: center;
           align-items: center;
   font-family: 'Neuton', serif;
-  font-size: 24px;
   font-size: 1.5rem;
   border-bottom: 3px solid rgb(102, 0, 0);
   background-color: rgb(54, 98, 135);
@@ -59,7 +47,6 @@ header {
 }
 
 .name {
-  height: 32px;
   height: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -74,7 +61,6 @@ header {
 }
 
 nav li {
-  height: 32px;
   height: 2rem;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -85,7 +71,6 @@ nav li {
 }
 
 nav .space {
-  margin-right: 16px;
   margin-right: 1rem;
 }
 
@@ -100,7 +85,7 @@ nav a {
    transition: all 0.1s ease-in;
  }
 
-/* section learn */
+/* *****section learn***** */
 
 .learn-mobile {
   display: none;
@@ -108,7 +93,6 @@ nav a {
 
 .learn {
   position: relative;
-  top: 64px;
   top: 4rem;
   width: 100%;
   display: -webkit-box;
@@ -121,7 +105,6 @@ nav a {
 
 .learn .left {
   width: 60%;
-  margin: 32px 24px;
   margin: 2rem 1.5rem;
 }
 
@@ -136,27 +119,22 @@ nav a {
 
 .learn h1 {
   font-weight: 800;
-  font-size: 43.2px;
   font-size: 2.7rem;
   width: 70%;
 }
 
 .learn p {
   font-weight: 500;
-  font-size: 27.2px;
   font-size: 1.7rem;
-  margin-top: 16px;
   margin-top: 1rem;
   width: 70%;
 }
 
 .learn #button {
-  padding: 8px 16px;
   padding: 0.5rem 1rem;
   background-color: rgb(0, 0, 0);
   text-align: center;
   font-weight: 400;
-  font-size: 20.8px;
   font-size: 1.3rem;
   width: 60%;
 }
@@ -173,11 +151,10 @@ nav a {
   transition: all 0.2s ease-in 0.5ms;
 }
 
-/* practice section - left column */
+/* *****practice section - left side***** */
 
 .practice {
   position: relative;
-  top: 64px;
   top: 4rem;
   width: 100%;
   display: -webkit-box;
@@ -187,7 +164,7 @@ nav a {
 
 .practice .left {
   width: 60%;
-  margin: 32px 24px;
+  margin: 2rem 1.5rem;
 }
 
 .practice img {
@@ -196,41 +173,29 @@ nav a {
 
 .practice .left h1 {
   font-weight: 800;
-  font-size: 43.2px;
   font-size: 2.7rem;
-  margin-top: 32px;
   margin-top: 2rem;
-  margin-bottom: 24px;
   margin-bottom: 1.5rem;
 }
 
 .practice .left p {
-  font-size: 22.4px;
   font-size: 1.4rem;
 }
 
 #emanuel {
-  margin-top: 32px;
   margin-top: 2rem;
-  font-size: 17.6px;
   font-size: 1.1rem;
 }
 
-/* practice section - right column */
+/* *****practice section - right side***** */
 
 .practice-mobile {
   display: none;
 }
 
-.orientation-mobile,
-.campus-mobile,
-.guest-mobile {
-  display: none;
-}
-
 .practice .right {
   width: 40%;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 .orientation,
@@ -250,33 +215,21 @@ nav a {
   border-top: 1px solid rgb(54, 98, 135);
 }
 
-.mobile-pic {
-  display: none;
-}
-
-.orientation img,
-.campus img,
-.guest img {
-  max-width: 100%;
-  height: auto;
-}
-
-.orientation-pic,
-.campus-pic,
-.guest-pic {
-  margin: 16px 16px;
+.practice .pic-container {
   margin: 1rem 1rem;
   width: 35%;
 }
 
+.right img {
+  max-width: 100%;
+  height: auto;
+}
+
 #path {
-  margin-top: 32px;
   margin-top: 2rem;
 }
 
-.orientation-text,
-.campus-text,
-.guest-text {
+.practice .text-container {
   width: 65%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -288,29 +241,22 @@ nav a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 16px;
   margin-bottom: 1rem;
-  margin-right: 16px;
   margin-right: 1rem;
-  margin-top: 16px;
   margin-top: 1rem;
 }
 
 .practice .right h2 {
-  font-size: 32px;
   font-size: 2rem;
   font-weight: 700;
 }
 
 .practice .right p {
-  font-size: 19.2px;
   font-size: 1.2rem;
 }
 
 .practice .right .text-margin {
-  margin-top: 16px;
   margin-top: 1rem;
-  margin-bottom: 16px;
   margin-bottom: 1rem;
 }
 
@@ -323,7 +269,7 @@ nav a {
   font-weight: bold;
 }
 
-/* start learning section  */
+/* *****start learning section*****  */
 
 .start-mobile {
   display: none;
@@ -331,32 +277,25 @@ nav a {
 
 .start {
   position: relative;
-  top: 64px;
   top: 4rem;
   width: 100%;
-  padding-bottom: 16px;
   padding-bottom: 1rem;
 }
 
 .start h1 {
   text-align: center;
   font-weight: 800;
-  font-size: 43.2px;
   font-size: 2.7rem;
-  padding-top: 32px;
   padding-top: 2rem;
-  margin-bottom: 32px;
   margin-bottom: 2rem;
 }
 
 .start h3 {
-  font-size: 24px;
   font-size: 1.5rem;
   font-weight: 700;
 }
 
 .start p {
-  font-size: 16px;
   font-size: 1rem;
 }
 
@@ -370,19 +309,14 @@ nav a {
 }
 
 .start .courses {
-  margin-top: 8px;
   margin-top: 0.5rem;
-  margin-bottom: 8px;
   margin-bottom: 0.5rem;
 }
 
 .start .courses-list-1,
 .start .courses-list-2 {
-  margin-left: 72px;
   margin-left: 4.5rem;
-  margin-right: 72px;
   margin-right: 4.5rem;
-  margin-bottom: 32px;
   margin-bottom: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -397,35 +331,22 @@ nav a {
   height: auto;
 }
 
-.software-container,
-.compart-container,
-.design-container,
-.data-container,
-.business-container,
-.marketing-container {
+.individual-course {
   width: 33.3%;
   background-color: rgba(54, 98, 135, 0.1);
 }
 
-.compart-container,
-.business-container {
-  margin-left: 32px;
+#compart,
+#business {
   margin-left: 2rem;
-  margin-right: 32px;
   margin-right: 2rem;
 }
 
-.software-text,
-.computer-text,
-.design-text,
-.data-text,
-.business-text,
-.marketing-text {
-  padding: 16px 16px 24px 16px;
+.course-text {
   padding: 1rem 1rem 1.5rem 1rem;
 }
 
-/* thesis exhibits */
+/* *****thesis exhibits***** */
 
 .thesis-mobile {
   display: none;
@@ -433,7 +354,6 @@ nav a {
 
 .thesis {
   position: relative;
-  top: 64px;
   top: 4rem;
   width: 100%;
 }
@@ -447,28 +367,20 @@ nav a {
 .thesis h1 {
   text-align: center;
   font-weight: 800;
-  font-size: 43.2px;
   font-size: 2.7rem;
-  padding-top: 16px;
   padding-top: 1rem;
-  margin-bottom: 32px;
   margin-bottom: 2rem;
 }
 
 .thesis-container .left h2 {
-  margin-top: 24px;
   margin-top: 1.5rem;
-  margin-bottom: 8px;
   margin-bottom: 0.5rem;
-  font-size: 24px;
   font-size: 1.5rem;
   font-weight: 700;
 }
 
 .thesis-container .right h3 {
-  margin-bottom: 8px;
   margin-bottom: 0.5rem;
-  font-size: 24px;
   font-size: 1.5rem;
   font-weight: 700;
 }
@@ -484,11 +396,8 @@ nav a {
 
 .thesis-container .left {
   width: 60%;
-  margin-left: 24px;
   margin-left: 1.5rem;
-  margin-right: 24px;
   margin-right: 1.5rem;
-  margin-bottom: 32px;
   margin-bottom: 2rem;
 }
 
@@ -519,31 +428,25 @@ nav a {
   border-top: 1px solid rgb(54, 98, 135);
 }
 
-.fisma-pic,
-.now-pic {
+.thesis .pic-container {
   width: 35%;
-  margin: 16px 16px;
   margin: 1rem 1rem;
 }
 
-.fisma-pic img,
-.now-pic img {
+.thesis img {
   max-width: 100%;
   height: auto;
 }
 
-.fisma-text,
-.now-text {
+.thesis .text-container {
   width: 65%;
-  margin-right: 16px;
   margin-right: 1rem;
 }
 
-/* footer */
+/* *****footer***** */
 
 footer {
   position: relative;
-  top: 64px;
   top: 4rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -551,14 +454,11 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 16px;
   padding-top: 1rem;
-  padding-bottom: 48px;
   padding-bottom: 3rem;
   border-top: 3px solid rgb(102, 0, 0);
   background-color: rgb(54, 98, 135);
   color: rgb(255, 255, 255);
-  font-size: 17.6px;
   font-size: 1.1rem;
 }
 
@@ -574,22 +474,19 @@ footer a {
 }
 
 .copyright {
-  margin-left: 24px;
   margin-left: 1.5rem;
 }
 
 .terms {
-  margin-right: 24px;
   margin-right: 1.5rem;
 }
 
 #privacy {
-  margin-left: 16px;
   margin-left: 1rem;
 }
 
 
-/* media queries - tablet landscape */
+/* *****media queries - tablet landscape***** */
 
 @media only screen and (max-width: 1024px) {
   html {
@@ -597,16 +494,27 @@ footer a {
   }
 }
 
-/* media queries - portrait & mobile */
+/* *****media queries - mobile***** */
 
-@media only screen and (max-width: 768px), (orientation: portrait) {
+@media only screen and (max-width: 768px) {
   body {
     width: 100%;
   }
 
+/* header */
+
   header {
     position: static;
     width: 100%;
+    top: 0;
+  }
+
+  .learn,
+  .practice,
+  .start,
+  .thesis,
+  footer {
+    position: static;
     top: 0;
   }
 
@@ -628,19 +536,9 @@ footer a {
         -ms-flex-align: center;
             align-items: center;
     border-bottom: 3px solid rgb(102, 0, 0);
-    background-color: rgb(54, 98, 135);
+    background-color: rgba(54, 98, 135, 0.7);
     color: rgb(255, 255, 255);
   }
-
-  .learn,
-  .practice,
-  .start,
-  .thesis,
-  footer {
-    position: static;
-    top: 0;
-  }
-
 
   /* learn section */
 
@@ -704,7 +602,6 @@ footer a {
     transition: all 0.2s ease-in 0.5ms;
   }
 
-
   /* practice section */
 
   .practice {
@@ -713,7 +610,9 @@ footer a {
 
   .practice-mobile {
     width: 100%;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-bottom: 2rem;
   }
 
@@ -748,8 +647,7 @@ footer a {
   }
 
   .practice-mobile .text-margin {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem 0;
   }
 
   .orientation-mobile,
@@ -757,9 +655,7 @@ footer a {
     margin-bottom: 4rem;
   }
 
-  .orientation-pic-mobile,
-  .campus-pic-mobile,
-  .guest-pic-mobile {
+  .pic-container-mobile {
     margin: 0 1rem;
   }
 
@@ -767,9 +663,7 @@ footer a {
     margin-top: 1rem;
   }
 
-  .orientation-text-mobile,
-  .campus-text-mobile,
-  .guest-text-mobile {
+  .text-container-mobile {
     margin-left: 2rem;
   }
 
