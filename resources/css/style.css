@@ -14,6 +14,26 @@ body {
   background-color: rgba(54, 98, 135, 0.2);
 }
 
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 2.7rem;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
 /* *****header***** */
 
 header {
@@ -117,12 +137,6 @@ nav a {
   width: 40%;
 }
 
-.learn h1 {
-  font-weight: 800;
-  font-size: 2.7rem;
-  width: 70%;
-}
-
 .learn p {
   font-weight: 500;
   font-size: 1.7rem;
@@ -171,9 +185,7 @@ nav a {
   max-width: 100%;
 }
 
-.practice .left h1 {
-  font-weight: 800;
-  font-size: 2.7rem;
+.practice .left h2 {
   margin-top: 2rem;
   margin-bottom: 1.5rem;
 }
@@ -246,11 +258,6 @@ nav a {
   margin-top: 1rem;
 }
 
-.practice .right h2 {
-  font-size: 2rem;
-  font-weight: 700;
-}
-
 .practice .right p {
   font-size: 1.2rem;
 }
@@ -282,17 +289,10 @@ nav a {
   padding-bottom: 1rem;
 }
 
-.start h1 {
+.start h2 {
   text-align: center;
-  font-weight: 800;
-  font-size: 2.7rem;
   padding-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.start h3 {
-  font-size: 1.5rem;
-  font-weight: 700;
 }
 
 .start p {
@@ -364,25 +364,19 @@ nav a {
   display: flex;
 }
 
-.thesis h1 {
+.thesis h2 {
   text-align: center;
-  font-weight: 800;
-  font-size: 2.7rem;
   padding-top: 1rem;
   margin-bottom: 2rem;
 }
 
-.thesis-container .left h2 {
+.thesis-container .left h4 {
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
-  font-size: 1.5rem;
-  font-weight: 700;
 }
 
-.thesis-container .right h3 {
+.thesis-container .right h4 {
   margin-bottom: 0.5rem;
-  font-size: 1.5rem;
-  font-weight: 700;
 }
 
 .thesis a {
@@ -497,6 +491,11 @@ footer a {
 /* *****media queries - mobile***** */
 
 @media only screen and (max-width: 768px) {
+
+  html {
+    font-size: 16px;
+  }
+
   body {
     width: 100%;
   }
@@ -612,7 +611,7 @@ footer a {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:: center;
     padding-bottom: 2rem;
   }
 
@@ -627,9 +626,7 @@ footer a {
     height: auto;
   }
 
-  .practice-mobile h2 {
-    font-weight: 800;
-    font-size: 2.7rem;
+  .practice-mobile h3 {
     margin-top: 1.5rem;
   }
 
@@ -696,16 +693,12 @@ footer a {
     display: flex;
   }
 
-  .start-mobile h1 {
+  .start-mobile h2 {
     text-align: center;
-    font-weight: 800;
-    font-size: 2.7rem;
     margin-bottom: 1rem;
   }
 
-  .start-mobile h3 {
-    font-size: 1.5rem;
-    font-weight: 700;
+  .start-mobile h4 {
     margin-left: 1rem;
   }
 
@@ -730,10 +723,8 @@ footer a {
     padding-top: 2rem;
   }
 
-  .thesis-mobile h1 {
+  .thesis-mobile h2 {
     text-align: center;
-    font-weight: 800;
-    font-size: 2.7rem;
     margin-bottom: 1rem;
   }
 
